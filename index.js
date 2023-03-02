@@ -6,7 +6,7 @@ function confirmPass() {
   
     if (firstPassword !== confirmPassword) {
       confirmButton.disabled = true;
-      BoxConfirmPss.style.boxShadow = "0px 0px 4px 2px rgba(255,0,0,0.37)";
+      BoxConfirmPss.style.boxShadow = "0px 0px 1px 2px rgba(255,0,0,0.55)";
     } else {
       confirmButton.disabled = false;
       BoxConfirmPss.style.boxShadow = "none";
